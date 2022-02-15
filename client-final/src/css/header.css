@@ -1,0 +1,251 @@
+.container {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 177px;
+    height: 58px;
+}
+
+.link-image {
+    text-decoration: none;
+    font: normal normal bold 18px/24px Roboto;
+    color: #A5A5A5;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: -50px;
+}
+
+.nav {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-category {
+    list-style-type: none;
+    margin-top: 20px;
+    position: relative;     
+}
+
+.nav-category::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color:  #F0972A;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: -12px;
+}
+
+.nav-category:first-of-type::before {
+    display: none;
+}
+
+.link-category {
+    text-decoration: none;
+    font: normal normal bold 18px/24px Roboto;
+    color: #A5A5A5;
+    /* width: 150px; */
+    /* ova namali ako treba */
+    height: 24px;
+    margin-right: 15px;
+    margin-left: 5px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.link-category:hover{
+    color: #F0972A;
+}
+
+.first-nav-items {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.button-login{
+    color: #A5A5A5;
+    font: normal normal bold 18px/24px Roboto;
+    width: 108px;
+    height: 44px;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;  
+    cursor: pointer;
+}
+
+#or {
+    width: 15px;
+    height: 21px;
+    font: normal normal 900 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #F0972A;
+    opacity: 1;
+    margin-left: 1px;
+    margin-top: 10px;
+}
+
+.button-create-account{
+    background: #96BB36 0% 0% no-repeat padding-box;
+    width: 179px;
+    height: 44px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    text-align: center;
+    font: normal normal 900 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    border: none;
+    vertical-align: middle
+}
+
+.second-nav-items {
+    display: flex;
+    /* width: 500px; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+.nav-list-item-other {
+    list-style-type: none;
+    /* margin-left: 10px; */
+    margin-top: 20px;
+    padding-left: 5px;
+    /* padding-right: 10px; */
+    position: relative;
+    margin-right: -20px; 
+    margin-left: 25px;
+}
+
+.nav-list-item-other::before {
+    content: "";
+    display: block;
+    width: 9px;
+    height: 9px;
+    background: #626262 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: -7px;
+
+}
+.nav-list-item-other:first-of-type::before {
+    display: none;
+}
+
+
+.link-myRecipe {
+    text-decoration: underline;
+    text-decoration-color: #B5B5B4;
+    text-decoration-style: solid;
+    top: 67px;
+    left: 1227px;
+    width: 145px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 900 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #96BB36;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.link-myRecipe:hover {
+    text-decoration: underline;
+    text-decoration-color: #B5B5B4;
+    text-decoration-style: solid;
+    top: 67px;
+    left: 1227px;
+    width: 145px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 900 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #96BB36;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.link-myProfile {
+    text-decoration: underline;
+    text-decoration-color: #B5B5B4;
+    text-decoration-style: solid;
+    top: 67px;
+    left: 1369px;
+    width: 150px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 900 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #F0972A;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.link-myProfile:hover {
+    text-decoration: underline;
+    text-decoration-color: #B5B5B4;
+    text-decoration-style: solid;
+    top: 67px;
+    left: 1369px;
+    width: 150px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 900 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #F0972A;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.link-logout {
+    text-decoration: underline;
+    text-decoration-color: #B5B5B4;
+    text-decoration-style: solid;
+    top: 67px;
+    left: 1511px;
+    width: 120px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 900 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #B5B5B4;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.link-logout:hover {
+    text-decoration: underline;
+    text-decoration-color: #B5B5B4;
+    text-decoration-style: solid;
+    top: 67px;
+    left: 1511px;
+    width: 120px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 900 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #B5B5B4;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+
+
+
+

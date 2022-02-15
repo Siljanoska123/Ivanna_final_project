@@ -1,0 +1,103 @@
+.container-Login{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.div-login {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+#login-title {
+    height: 48px;
+    padding-right: 20px;
+    text-align: left;
+    font: normal normal bold 36px/48px Roboto Slab;
+    letter-spacing: 0px;
+    color: #96BB36;
+    opacity: 1;
+}
+
+#hr8 {
+    margin-top: 34px;
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid silver;
+}
+.login-form {
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+}
+.left-box-login {
+    margin-left: 0px;
+    width: 60%;
+}
+.welcome-title {
+    padding-top: 60px;
+    padding-left: 0px;
+}
+#orange-letters-login {
+    width: 253px;
+    height: 60px;
+
+    text-align: left;
+    font: normal normal bold 46px/60px Roboto Slab;
+    letter-spacing: 0px;
+    color: #F0972A;
+    padding-right: 12px;
+}
+
+#black-letters-login {
+    width: 141px;
+    height: 60px;
+
+    text-align: left;
+    font: normal normal bold 46px/60px Roboto Slab;
+    letter-spacing: 0px;
+    color: #626262;
+}
+.login-text-box {
+    width: 588px;
+    height: 156px;
+    padding-top: 20px;
+
+    text-align: left;
+    font: normal normal normal 20px/26px Roboto Slab;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+}
+
+.right-box-login {
+    padding-top: 90px;
+    margin-left: 220px;
+}
+
+
+
+
+.button {
+    width: 125px;
+    height: 40px;
+    background: #96BB36 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    text-align: center;
+    font: normal normal 900 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: #96BB36 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+}

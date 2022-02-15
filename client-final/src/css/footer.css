@@ -1,0 +1,143 @@
+.footer {
+    display: flex ;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 120px;
+    background: #626262 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+  
+}
+.navFooter{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.footer-category {
+    list-style-type: none;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px; 
+    padding-left: 5px;
+    padding-right: 10px;
+  
+      
+}
+.footer-category::before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+   margin-top: 15px;
+    left: -12px;
+}
+.footer-category:first-of-type::before {
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link.footer-category {
+    text-decoration: none;
+    font: normal normal bold 15px/20px Roboto;
+    color: #FFFFFF;
+    /* width: 150px; /
+    / ova namali ako treba */
+    height: 24px;
+    margin-right: 15px;
+    margin-left: 5px;
+    letter-spacing: 0px;
+    top: -7px;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+.navbar-light .navbar-nav .nav-link.link-category:hover{
+    color: #F0972A;
+}
+
+
+.copyright {
+    width: 215px;
+    height: 38px;
+    text-align: right;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-right: 60px;
+ 
+}
+
+/* 
+.container-footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 120px;
+    background: #626262 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.logo-white {
+    padding-right: 50px;
+}
+
+.footer-cat{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px; 
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.footer-cat::before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: -12px;
+}
+
+.footer-cat:first-of-type::before {
+    display: none;
+}
+
+.categories {
+    display: flex;
+    text-align: center;
+    width: 381px;
+    height: 20px;
+    font: normal normal bold 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 35px;
+}
+
+.copyright {
+    width: 215px;
+    height: 38px;
+    text-align: right;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+    
+} */

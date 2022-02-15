@@ -1,0 +1,119 @@
+.container-createAccount{
+     width: 100%;
+     height: 100%;
+}
+
+
+.div-create-Account {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+#account-title {
+    height: 48px;
+    padding-right: 20px;
+
+    text-align: left;
+    font: normal normal bold 36px/48px Roboto Slab;
+    letter-spacing: 0px;
+    color: #96BB36;
+    opacity: 1;
+    /* margin-top: 30px; */
+}
+
+#hr7 {
+    margin-top: 34px;
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid silver;
+}
+
+
+
+
+
+.create-acc-form {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#left-box {
+    width: 30%;
+    
+}
+
+#orange-letters {
+    width: 250px;
+    height: 60px;
+
+    text-align: left;
+    font: normal normal bold 46px/60px Roboto Slab;
+    letter-spacing: 0px;
+    color: #F0972A;
+}
+
+#black-letters {
+    width: 175px;
+    height: 60px;
+
+    text-align: left;
+    font: normal normal bold 46px/60px Roboto Slab;
+    letter-spacing: 0px;
+    color: #626262;
+}
+
+.left-text-box {
+    width: 500px;
+    height: 156px;
+
+    text-align: left;
+    font: normal normal normal 20px/26px Roboto Slab;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+
+
+.right-box {
+    padding-top: 20px;
+    width: 60%;
+    margin-left: 120px;
+}
+
+.form-boxes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
+
+
+.button-save-account {
+    width: 202px;
+    height: 40px;
+    background: #96BB36 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font: normal normal 900 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.button-save-account:hover {
+    background: #96BB36 0% 0% no-repeat padding-box;
+}

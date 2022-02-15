@@ -1,0 +1,305 @@
+.container-create-recipe{
+    width: 100%;
+    height: 100%;
+    margin-left: -16px;
+    margin-top: 25px;
+}
+
+.div-create-recipe{
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+}
+#create-Recipe-title {
+    height: 48px;
+    padding-right: 20px;
+
+    text-align: left;
+    font: normal normal bold 36px/48px Roboto Slab;
+    letter-spacing: 0px;
+    color: #96BB36;
+    opacity: 1;
+}
+#hr5 {
+    margin-top: 34px;
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid silver;
+}
+.back-button {
+    width: 41px;
+    height: 41px;
+    background: #F0972A 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    cursor: pointer;
+
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ 
+    
+ 
+}
+
+.icon-back {
+    display: block;
+    width: 18px;
+    height: 19px;
+    margin: 5px auto;
+}
+
+
+.new-recipe-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    float: left;
+    margin-left: -5px;
+    margin-top: 30px;
+}
+
+.image-title {
+    width: 122px;
+    height: 21px;
+
+    text-align: left;
+    font: normal normal bold 16px/21px Roboto Slab;
+    letter-spacing: 0px;
+    color: #F0972A;
+    margin-bottom: 10px;
+}
+.image-info {
+    width: 234px;
+    height: 147px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.image-button{
+    width: 234px;
+    height: 32px;
+    border: 1px solid #A5A5A5;
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    text-transform: uppercase;
+    padding: 4px 28px;
+    outline: none;
+    background: none;
+ }
+ 
+ .image-button:hover{
+    color: #A5A5A5;
+     background: none;
+ }
+ 
+.other-information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 85px;
+
+
+/* do 85 */
+
+
+}
+.recipe-title-label {
+    width: 91px;
+    height: 21px;
+    text-align: left;
+    font: normal normal bold 16px/21px Roboto Slab;
+    letter-spacing: 0px;
+    color: #F0972A;
+    /* margin-bottom: 10px; */
+}
+.recipe-title-input {
+    width: 520px;
+    height: 40px;
+    background: #F0EFEA 0% 0% no-repeat padding-box;
+    font: normal normal bold 16px/21px Roboto Slab;
+    color: #A5A5A5;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.second-part {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+  
+}
+
+.category-label {
+    width: 67px;
+    height: 21px;
+    text-align: left;
+    font: normal normal bold 16px/21px Roboto Slab;
+    letter-spacing: 0px;
+    color: #F0972A;
+}
+.category-select {
+    width: 160px;
+    height: 40px;
+    background: #F0EFEA 0% 0% no-repeat padding-box;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal bold 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    margin-top: 10px;
+    padding: 10px;
+}
+.prep-time-label {
+    width: 132px;
+    height: 21px;
+
+    text-align: left;
+    font: normal normal bold 16px/21px Roboto Slab;
+    letter-spacing: 0px;
+    color: #F0972A;
+    margin-left: -20px;
+}
+.prep-time-input {
+    width: 160px;
+    height: 40px;
+    background: #F0EFEA 0% 0% no-repeat padding-box;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal bold 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: -20px;
+}
+.no-pepole-label {
+    width: 80px;
+    height: 21px;
+    text-align: left;
+    font: normal normal bold 16px/21px Roboto Slab;
+    letter-spacing: 0px;
+    color: #F0972A;
+    margin-left: -25px;
+}
+
+.no-people-input {
+    width: 160px;
+    height: 40px;
+    background: #F0EFEA 0% 0% no-repeat padding-box;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal bold 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: -25px;
+}
+
+.div-select-time{
+    margin-left: -50px;
+}
+
+.div-select-noPeople{
+    margin-left: -70px;
+}
+.short-description-label {
+    width: 134px;
+    height: 21px;
+    text-align: left;
+    font: normal normal bold 16px/21px Roboto Slab;
+    letter-spacing: 0px;
+    color: #F0972A;
+}
+
+.short-description-label-input {
+    width: 520px;
+    height: 96px;
+    background: #F0EFEA 0% 0% no-repeat padding-box;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal bold 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.main-recipe-label {
+    width: 51px;
+    height: 21px;
+    text-align: left;
+    font: normal normal bold 16px/21px Roboto Slab;
+    letter-spacing: 0px;
+    color: #F0972A;
+   
+}
+
+.main-recipe-label-input {
+    width: 360px;
+    height: 284px;
+    background: #F0EFEA 0% 0% no-repeat padding-box;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal bold 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.recipe-save-button {
+    width: 124px;
+    height: 40px;
+    background: #96BB36 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 900 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+   margin-top: 40px;
+   margin-bottom: 200px
+
+}
+
+.recipe-save-button:hover {
+    background: #96BB36 0% 0% no-repeat padding-box;
+    
+}
+
+.recipe-information {
+    margin-left: -45px;
+}
+.third-part {
+    margin-top: 20px;
+} 
